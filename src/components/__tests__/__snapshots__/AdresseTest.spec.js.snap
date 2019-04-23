@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdresseTest matches the snapshot 1`] = `
+<div>
+  <div class="searchbox">
+    <form class="search"><input placeholder="Søk etter adresse i kartverket" type="text" id="searchTerm" class="text-filter"> <button type="button">
+        <font-awesome-icon-stub icon="search" aria-hidden="true"></font-awesome-icon-stub> <span class="sr-only">Søk addresse</span>
+      </button></form>
+  </div>
+  <h3>
+    <font-awesome-icon-stub icon="grin-beam" aria-hidden="true"></font-awesome-icon-stub>
+    Adressesøk fra api (via vuex):
+  </h3>
+  <div>
+    <ul>
+      <li>
+        Andebyveien 113
+        A, 0113 Andeby
+
+        <button class="addFavorite">
+          <font-awesome-icon-stub icon="plus-circle" aria-hidden="true"></font-awesome-icon-stub> Lagre favoritt
+        </button></li>
+    </ul>
+    <data-source-info-stub translationpath="dataSourceInfo.kartverket" fetchdate="16. mai 2019 kl. 16:04"></data-source-info-stub>
+  </div> <br>
+  <hr>
+  <h3>Lagrede favoritter, i vuex.</h3> <i>Ingen adresser lagret</i> <br><br>
+  <hr>
+  <h3>Manipulert data, med vuex getter.</h3> <b>Nytt felt "northernLightCanBeSeen" lagt til hvert adresse-objekt</b><br> <br>
+
+  Hvilke av adressene er det sannsynlig at jeg kan finne Nordlyset?
+  <ul>
+    <li>
+      <!---->
+    </li>
+  </ul> <br>
+  <hr>
+  <div>
+    <h3> Filtrert data, med vuex getter.</h3><br> <b>
+      Adresser som har Oslo som poststed = 0 stk:
+    </b>
+    <ul></ul>
+  </div> <br> <br>
+</div>
+`;

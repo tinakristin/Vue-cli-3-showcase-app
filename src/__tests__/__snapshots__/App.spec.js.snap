@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches the snapshot 1`] = `
+<div id="app">
+  <div id="nav">
+    <router-link-stub to="/" tag="a" event="click">Home</router-link-stub> |
+    <router-link-stub to="/about" tag="a" event="click">About</router-link-stub>
+  </div>
+  <router-view-stub name="default"></router-view-stub>
+  <hr>
+  <div class="row footer"><i class="date pull-left">
+      <font-awesome-icon-stub icon="smile" aria-hidden="true"></font-awesome-icon-stub> 23. april 2019
+    </i> <i>Vue-cli-3 test applikasjon laget av Tina Kristin Jensen</i> <img src="./assets/Marcello_logo_small.png" alt="Marcello logo" class="marcello pull-right"></div>
+</div>
+`;

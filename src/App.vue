@@ -5,8 +5,29 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <hr/>
+    <div class="row footer">
+      <i class="date pull-left">
+        <font-awesome-icon icon="smile" aria-hidden="true"/> 23. april 2019
+      </i>
+      <i>Vue-cli-3 test applikasjon laget av Tina Kristin Jensen</i>
+      <img src="./assets/Marcello_logo_small.png"
+           alt="Marcello logo" class="marcello pull-right"/>
+    </div>
   </div>
 </template>
+
+<script>
+import Vue from 'vue';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faSmile } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+library.add(faSmile);
+
+export default {};
+</script>
 
 <style lang="scss">
 #app {
@@ -15,6 +36,21 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
+  .footer {
+    width: 100%;
+    margin: 20px 0;
+    .marcello {
+      padding-left: 10%;
+      text-align: right;
+      width: 100px;
+    }
+    .date {
+      padding-right: 5%;
+      text-align: left;
+      width: 100px;
+    }
+  }
 }
 #nav {
   padding: 30px;

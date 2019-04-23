@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataSourceInfo matches the snapshot 1`] = `
+<div class="row pull-left">
+  <font-awesome-icon-stub icon="search" aria-hidden="true"></font-awesome-icon-stub> <span>Denne testdataen er hentet den {dato} fra </span> <a href="https://www.kartverket.no/data/brukerveiledning-for-adressesok/" target="_blank" title="Følg lenken til kartverkets addressesøk">
+    kartverkets addressesøk
+  </a>
+</div>
+`;

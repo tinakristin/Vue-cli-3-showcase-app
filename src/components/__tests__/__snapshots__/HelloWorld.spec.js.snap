@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld matches the snapshot 1`] = `
+<div class="hello">
+  <h1>Welcome</h1>
+  <hr>
+  <adresse-test-stub></adresse-test-stub>
+</div>
+`;

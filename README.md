@@ -1,4 +1,15 @@
 # vue-cli-3-showcase-app
+Intro til bruk av:
+- Miljøvariabler VUE_APP... i .env-filer
+- VUEX-state håndtering
+- Vue-router
+- proxy i api-kall (Kommenter inn VUE_APP_USE_DEV_PROXY=true i .env.development, proxy satt i vue.config)
+- Api-kall mot kartverket
+
+Viser også eksempel på bruk av:
+- Font-awesome ikoner
+- i18n-translation-fil, kan enkelt legge til flere språk
+- Jest-snapshot testing
 
 ## Project setup
 ```

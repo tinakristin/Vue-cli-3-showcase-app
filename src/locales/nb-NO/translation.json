@@ -1,0 +1,32 @@
+{
+  "app": {
+    "title": "Vue Front-end eksempel",
+    "loading": "Laster eksempel mockdata..."
+  },
+  "address": {
+    "search": "Søk addresse",
+    "result": "Adressesøk fra api (via vuex):",
+    "save": "Lagre favoritt",
+    "delete": "Slett favoritt",
+    "savedFavorites": "Lagrede favoritter, i vuex.",
+    "noFavorites": "Ingen adresser lagret",
+    "manipulated": "Manipulert data, med vuex getter.",
+    "newFieldInfo": "Nytt felt \"northernLightCanBeSeen\" lagt til hvert adresse-objekt",
+    "northernLight": "Hvilke av adressene er det sannsynlig at jeg kan finne Nordlyset?",
+    "filtrated": "Filtrert data, med vuex getter.",
+    "osloAddress": "Adresser som har Oslo som poststed = {antall} stk:"
+  },
+  "dataSourceInfo":{
+    "kartverket": {
+      "text": "Denne testdataen er hentet den {dato} fra ",
+      "link": {
+        "text": "kartverkets addressesøk",
+        "url": "https://www.kartverket.no/data/brukerveiledning-for-adressesok/"
+      }
+    }
+  },
+  "modal": {
+    "confirm": "Ja",
+    "decline": "Nei"
+  }
+}
