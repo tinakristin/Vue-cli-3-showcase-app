@@ -1,7 +1,7 @@
 module.exports = {
   runtimeCompiler: true,
   lintOnSave: true,
-  publicPath: '',
+  publicPath: '', // tidligere kjent som baseUrl, default: '/' = webpack's output.publicPath, '' for relative path
   productionSourceMap: false,
   chainWebpack: (config) => {
     config.module.rule('eslint').use('eslint-loader').options({
