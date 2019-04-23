@@ -1,4 +1,4 @@
-# vue-cli3-test-repo
+# vue-cli-3-showcase-app
 
 ## Project setup
 ```

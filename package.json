@@ -1,8 +1,8 @@
 {
-  "name": "vue-cli3-test-repo",
+  "name": "vue-cli-3-showcase-app",
   "version": "0.1.0",
   "description": "Frontend Vue.js eksempel på bruk av vue-cli3",
-  "author": "tinajen <tina.kristin.jensen@marcello.no>",
+  "author": "tinajen <tina_kristin@outlook.com>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode development",
