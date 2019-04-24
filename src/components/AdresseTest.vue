@@ -120,7 +120,7 @@ export default {
   name: 'AdresseTest',
   components: { DataSourceInfo },
   filters: {
-    addressAsString(address) {
+    addressAsString(address) { // for å bruke som en pipe i templated se eks. kodelinje 96
       return `${address.adressenavn || address.adressetekst || ''} ${address.nummer || ''}
       ${address.bokstav ? address.bokstav : ''}, ${address.postnummer} ${address.poststed}`;
     },
@@ -141,14 +141,14 @@ export default {
   },
   watch: {
     /*
-    selectedStreetAddress() {
+    selectedStreetAddress() { // Hver gang selectedStreetAddress endres vil metoden her trigges
       if (this.selectedStreetAddress.length > 5) {
         this.selectAddress();
       }
     },
     */
   },
-  mounted() {
+  created() { // Best-practice er å bruke created til å hente data etc.
     this.getAdresserFraKartverket(this.selectedStreetAddress);
   },
   methods: {
@@ -157,7 +157,7 @@ export default {
     selectAddress() {
       this.getAdresserFraKartverket(this.selectedStreetAddress);
     },
-    getAddressAsString(address) {
+    getAddressAsString(address) { // For å bruke som en metode, se eks. kodelinje 35
       return `${address.adressenavn || address.adressetekst} ${address.nummer}
       ${address.bokstav ? address.bokstav : ''}, ${address.postnummer} ${address.poststed}`;
     },
