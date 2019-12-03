@@ -11,8 +11,8 @@
         <font-awesome-icon icon="smile" aria-hidden="true"/> 23. april 2019
       </i>
       <i>Vue-cli-3 test applikasjon laget av Tina Kristin Jensen</i>
-      <img src="./assets/Marcello_logo_small.png"
-           alt="Marcello logo" class="marcello pull-right"/>
+      <img src="./assets/Felix_the_cat.png"
+           alt="Felix the cat" class="felix pull-right"/>
     </div>
   </div>
 </template>
@@ -40,7 +40,7 @@ export default {};
   .footer {
     width: 100%;
     margin: 20px 0;
-    .marcello {
+    .felix {
       padding-left: 10%;
       text-align: right;
       width: 100px;

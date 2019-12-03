@@ -20,7 +20,9 @@
     "@fortawesome/vue-fontawesome": "^0.1.5",
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
+    "docx": "^5.0.0-rc7",
     "es6-promise": "^4.2.6",
+    "file-saver": "^2.0.2",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
@@ -43,7 +45,7 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   }

@@ -5,6 +5,7 @@ Intro til bruk av:
 - Vue-router
 - proxy i api-kall (Kommenter inn VUE_APP_USE_DEV_PROXY=true i .env.development, proxy satt i vue.config)
 - Api-kall mot kartverket
+- Word-generering vha. DocX
 
 Viser også eksempel på bruk av:
 - Font-awesome ikoner
